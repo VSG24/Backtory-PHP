@@ -1,0 +1,23 @@
+{
+    "name": "vsg24/backtory-php",
+    "type": "library",
+    "description": "Unofficial Backtory.com SDK for modern PHP",
+    "keywords": ["sdk", "backtory", "rest", "web service", "client"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vahid Amiri Motlagh",
+            "email": "vahid.a1996@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "files": ["src/utils.php"],
+        "psr-4": {
+            "VSG24\\Backtory\\": "src/"
+        }
+    }
+}
